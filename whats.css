@@ -1,0 +1,67 @@
+*{
+    font-family: 'Open Sans',sans-serif;
+    flex-wrap: wrap;
+}
+.backtop{
+    background-color: #009080;
+    height: 15vh;
+}
+.backmain{
+    background-color: rgb(212, 212, 197);
+    height: 85vh;
+}
+.backcontainer{
+    position: relative;
+}
+.frontcontainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+}
+.frontcontainer1{
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+   
+}
+.chattop{
+    background-color: #EDEDED;
+    min-height: 45px;
+   
+}
+
+.profile-image{
+    margin-top: 7px;
+    height: 30px;
+    width: 30px;
+}
+.contacts{
+    background-color: #ffffff;
+    min-height: 600px;
+}
+.table-scroll{
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.message-area{
+    /* background-color: #e4e1de; */
+    background: url(Screenshot\ 2023-10-27\ 232602.png);
+    min-height: 600px;
+
+}
+
+.message-table-scroll{
+    overflow-y: scroll;
+    height: 550px;
+}
+.message-box{
+    background-color: #F0F0F0;
+
+}
+small{
+    color: rgb(99, 89, 89);
+}
